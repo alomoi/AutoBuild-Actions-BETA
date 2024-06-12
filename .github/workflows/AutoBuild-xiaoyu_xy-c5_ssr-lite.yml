@@ -4,7 +4,7 @@
 #   Author: Hyy2001X                                      #
 ###########################################################
 
-name: xiaoyu ssr-lite
+name: xiaoyu ssrlite
 
 on:
   repository_dispatch:
@@ -32,10 +32,10 @@ on:
           - 'xiaoyu_ssr-lite'
       Tempoary_FLAG:
         description: '固件标签'
-        default: 'ssr-lite'
+        default: 'ssrlite'
         type: choice
         options:
-          - 'ssr-lite'
+          - 'ssrlite'
       Tempoary_IP:
         description: '固件 IP 地址 [可选]'
         default: ''
