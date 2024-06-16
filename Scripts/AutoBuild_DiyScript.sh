@@ -39,7 +39,7 @@ Firmware_Diy_Core() {
 	Regex_Skip="packages|buildinfo|sha256sums|manifest|kernel|rootfs|factory|itb|profile|ext4|json"
 	# 输出固件时丢弃包含该内容的固件/文件
 	
-	AutoBuild_Features=false
+	AutoBuild_Features=true
 	# 添加 AutoBuild 固件特性, true: [开启]; false: [关闭]
 	
 	AutoBuild_Features_Patch=false
